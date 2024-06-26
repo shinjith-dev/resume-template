@@ -179,7 +179,7 @@ const Template = () => {
                   </Link>
                   <Text style={style.body3}>
                     An AI assistant that focuses on assigning tasks for students
-                    based on the syllabus. It effortlessly
+                    based on the syllabus. It effortlessly{" "}
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     improves students' performance by lowering stress and
                     providing slots for homework, exam preparation, etc.
