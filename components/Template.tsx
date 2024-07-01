@@ -48,7 +48,7 @@ const Template = () => {
               <Text style={style.textName}>Shinjith P R</Text>
 
               <Text style={[style.body1, { marginBottom: "6pt" }]}>
-                Web Developer from Kerala, India
+                Web Developer
               </Text>
 
               <Text style={style.body2}>
@@ -75,6 +75,7 @@ const Template = () => {
               <Link style={style.body2} src="https://shinjith.dev">
                 shinjith.dev
               </Link>
+              <Text style={style.body2}>Kasaragod, Kerala, India</Text>
             </View>
           </View>
 
