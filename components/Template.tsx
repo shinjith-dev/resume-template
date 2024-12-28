@@ -51,7 +51,7 @@ const Template = () => {
                 Web Developer
               </Text>
 
-              <Text style={style.body2}>
+              <Text style={style.body3}>
                 Experienced Full Stack Developer, proficient at driving
                 innovation utilizing cutting-edge technology. With over 1½ years
                 of professional experience, I am looking for possibilities for
@@ -60,11 +60,8 @@ const Template = () => {
             </View>
 
             <View style={{ flexDirection: "column", display: "flex" }}>
-              <Link
-                style={style.body2}
-                src="mailto:shinjithkanhangad@gmail.com"
-              >
-                shinjithkanhangad@gmail.com
+              <Link style={style.body2} src="mailto:shinjithdev@gmail.com">
+                shinjithdev@gmail.com
               </Link>
               <Link style={style.body2} src="tel:+918921345282">
                 +91 8921345282
@@ -94,6 +91,28 @@ const Template = () => {
                 <Text style={style.sectionTitle}>Experience</Text>
 
                 <View style={{ marginBottom: "12pt" }}>
+                  <Link src="https://tequerist.com/" style={style.title1}>
+                    Tequerist Technologies
+                  </Link>
+                  <View
+                    style={[
+                      style.body2,
+                      { flexDirection: "row", alignItems: "center" },
+                    ]}
+                  >
+                    <Text style={{ fontWeight: "medium" }}>Developer · </Text>
+                    <Text style={style.body3}>December 2022 - April 2024</Text>
+                  </View>
+                  <Text style={style.body3}>
+                    As a product-based firm, we are working to scale our product
+                    while also addressing user-reported issues. I was able to
+                    work on older code bases. Furthermore, by scaling service
+                    platforms, I was able to improve my knowledge of mobile app
+                    development and redux systems.
+                  </Text>
+                </View>
+
+                <View style={{ marginBottom: "12pt" }}>
                   <Link src="https://www.tghtech.com/" style={style.title1}>
                     TGH Tech
                   </Link>
@@ -106,11 +125,11 @@ const Template = () => {
                     <Text style={{ fontWeight: "medium" }}>Developer · </Text>
                     <Text style={style.body3}>December 2022 - April 2024</Text>
                   </View>
-                  <Text style={style.body2}>
-                    I spent over 1½ year at TGH Tech as a Frontend Web
-                    Developer, crafting web interfaces for startups and
-                    mid-sized businesses. This role allowed me to master coding
-                    techniques and strategic approaches to web development.
+                  <Text style={style.body3}>
+                    I spent over 1½ year at TGH Tech as a Developer, crafting
+                    web interfaces for startups and mid-sized businesses. This
+                    role allowed me to master coding techniques and strategic
+                    approaches to web development.
                   </Text>
                 </View>
 
@@ -127,7 +146,7 @@ const Template = () => {
                     <Text style={{ fontWeight: "medium" }}>Intern · </Text>
                     <Text style={style.body3}>November 2022</Text>
                   </View>
-                  <Text style={style.body2}>
+                  <Text style={style.body3}>
                     An internship that covered the fundamentals of web
                     development using Angular, certified by IBM.
                   </Text>
@@ -142,7 +161,7 @@ const Template = () => {
                   <Text style={[style.body2, { fontWeight: "medium" }]}>
                     Bachelor of Technology in Computer Science
                   </Text>
-                  <Link src="https://lbscek.ac.in/" style={style.title2}>
+                  <Link src="https://lbscek.ac.in/" style={style.title3}>
                     LBS College of Engineering
                   </Link>
                   <Text style={style.body3}>June 2024</Text>
@@ -152,7 +171,7 @@ const Template = () => {
                   <Text style={[style.body2, { fontWeight: "medium" }]}>
                     Higher studies
                   </Text>
-                  <Text style={style.title2}>JNV Kasaragod</Text>
+                  <Text style={style.title3}>JNV Kasaragod</Text>
                   <Text style={style.body3}>April 2020</Text>
                 </View>
               </View>
@@ -160,17 +179,6 @@ const Template = () => {
               {/* Projects  */}
               <View style={style.section}>
                 <Text style={style.sectionTitle}>Projects</Text>
-                <View style={{ marginBottom: "12pt" }}>
-                  <Link style={style.title3} src="https://pomtick.pages.dev">
-                    Pomtick
-                  </Link>
-                  <Text style={style.body3}>
-                    Pomtick is a pomodoro timer app that works across multiple
-                    platforms. Designed to improve productivity of completing
-                    task; with a classy themeable interface.
-                  </Text>
-                </View>
-
                 <View style={{ marginBottom: "12pt" }}>
                   <Link
                     style={style.title3}
