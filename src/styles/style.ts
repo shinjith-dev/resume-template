@@ -11,7 +11,7 @@ const style = StyleSheet.create({
     backgroundColor: "#ffffff",
     padding: "24pt",
     fontSize: "11pt",
-    height: '100%'
+    height: "100%",
   },
   section: { marginBottom: "12pt" },
   textName: {
@@ -21,7 +21,7 @@ const style = StyleSheet.create({
     color: "#102c57",
   },
   textPost: {
-    fontSize: "13pt",
+    fontSize: "12pt",
     fontFamily: "Open Sans",
     color: "#0f172a",
     marginBottom: "2pt",
@@ -36,7 +36,7 @@ const style = StyleSheet.create({
     textDecoration: "none",
   },
   subHeading: {
-    fontSize: "11pt",
+    fontSize: "10pt",
     fontFamily: "Open Sans",
     fontWeight: "medium",
     textDecoration: "none",
@@ -44,14 +44,14 @@ const style = StyleSheet.create({
     marginBottom: "2pt",
   },
   body: {
-    fontSize: "10pt",
+    fontSize: "9pt",
     fontFamily: "Open Sans",
     color: "#1e293b",
     marginBottom: "2pt",
     textDecoration: "none",
   },
   caption: {
-    fontSize: "9pt",
+    fontSize: "8pt",
     fontFamily: "Open Sans",
     color: "#334155",
     textDecoration: "none",
