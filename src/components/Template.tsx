@@ -1,5 +1,6 @@
 import style from "../styles/style";
-import { Document, Font, Link, Page, Text, View } from "@react-pdf/renderer";
+import sdev from '../assets/sdev.jpeg'
+import { Document, Font, Image, Link, Page, Text, View } from "@react-pdf/renderer";
 
 Font.register({
   family: "Baskerville",
@@ -29,7 +30,7 @@ const Template = () => {
               style.section,
               {
                 flexDirection: "row",
-                gap: "5%",
+                gap: "10%",
                 alignItems: "center",
                 marginBottom: "16pt",
               },
@@ -39,7 +40,7 @@ const Template = () => {
               style={{
                 flexDirection: "column",
                 display: "flex",
-                flexBasis: "60%",
+                flexBasis: "75%",
                 flexShrink: 0,
                 flexGrow: 0,
               }}
@@ -47,34 +48,24 @@ const Template = () => {
               <Text style={style.textName}>Shinjith P R</Text>
 
               <Text style={[style.textPost, { marginBottom: "6pt" }]}>
-                React Developer
+                React & React Native Developer
               </Text>
 
               <Text style={style.body}>
-                Experienced React Native Developer, specializes in creating
-                pixel-perfect, engaging, and accessible digital experiences.
-                With about 3 years of professional experience, I am looking for
-                opportunities to contribute significantly to ideas.
+                Creative and meticulous software engineer with three years
+                of experience creating pixel-perfect, accessible, and
+                user-focused digital experiences.  I specialize in React
+                and React Native, bringing designs to life with precision and
+                performance.  I thrive on creating significant products, and
+                constantly pushing boundaries by learning, experimenting, and
+                delivering effective solutions.
               </Text>
             </View>
 
-            <View
-              style={{ flexDirection: "column", display: "flex", gap: "3pt" }}
-            >
-              <Link style={style.body} src="mailto:shinjithdev@gmail.com">
-                shinjithdev@gmail.com
-              </Link>
-              <Link style={style.body} src="tel:+918921345282">
-                +91 8921345282
-              </Link>
-              <Link style={style.body} src="https://github.com/shinjith-dev">
-                github.com/shinjith-dev
-              </Link>
-              <Link style={style.body} src="https://shinjith.dev">
-                shinjith.dev
-              </Link>
-              <Text style={style.body}>Kasaragod, Kerala, India</Text>
-            </View>
+            <Image
+              src={sdev}
+              style={{ width: 100, height: 100, borderRadius: 4 }}
+            />
           </View>
 
           <View
@@ -262,18 +253,37 @@ const Template = () => {
                 flexBasis: "35%",
               }}
             >
+              {/* details */}
+              <View
+                style={{ flexDirection: "column", display: "flex", gap: "3pt", marginBottom: '8pt', marginTop: '4pt' }}
+              >
+                <Link style={style.body} src="mailto:shinjithdev@gmail.com">
+                  shinjithdev@gmail.com
+                </Link>
+                <Link style={style.body} src="tel:+918921345282">
+                  +91 8921345282
+                </Link>
+                <Link style={style.body} src="https://github.com/shinjith-dev">
+                  github.com/shinjith-dev
+                </Link>
+                <Link style={style.body} src="https://shinjith.dev">
+                  shinjith.dev
+                </Link>
+                <Text style={style.body}>Kasaragod, Kerala, India</Text>
+              </View>
+
               {/* Skills  */}
               <View style={style.section}>
                 <Text style={style.heading}>Skills</Text>
 
-                <View style={{ marginBottom: "12pt" }}>
+                <View style={{ marginBottom: "8pt" }}>
                   <Text style={style.subHeading}>Programming Languages</Text>
                   <Text style={style.body}>
                     JavaScript, TypeScript, C, HTML, CSS, Python, Bash
                   </Text>
                 </View>
 
-                <View style={{ marginBottom: "12pt" }}>
+                <View style={{ marginBottom: "8pt" }}>
                   <Text style={style.subHeading}>Libraries & Frameworks</Text>
                   <Text style={style.body}>
                     React, React Native, Next.js, Expo, Eleventy, Tauri,
@@ -295,7 +305,7 @@ const Template = () => {
               <View style={style.section}>
                 <Text style={style.heading}>Education</Text>
 
-                <View style={{ marginBottom: "12pt", gap: "3pt" }}>
+                <View style={{ marginBottom: "10pt", gap: "3pt" }}>
                   <Text style={style.body}>Bachelors in CSE</Text>
                   <Link src="https://lbscek.ac.in/" style={style.subHeading}>
                     LBS College of Engineering

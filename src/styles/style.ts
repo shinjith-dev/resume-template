@@ -13,7 +13,7 @@ const style = StyleSheet.create({
     fontSize: "11pt",
     height: "100%",
   },
-  section: { marginBottom: "12pt" },
+  section: { marginBottom: "10pt" },
   textName: {
     fontSize: "20pt",
     fontFamily: "Baskerville",
@@ -21,14 +21,14 @@ const style = StyleSheet.create({
     color: "#102c57",
   },
   textPost: {
-    fontSize: "12pt",
+    fontSize: "11pt",
     fontFamily: "Open Sans",
     color: "#0f172a",
     marginBottom: "2pt",
     textDecoration: "none",
   },
   heading: {
-    fontSize: "12pt",
+    fontSize: "11.5pt",
     fontFamily: "Baskerville",
     fontWeight: "bold",
     color: "#102c57",
