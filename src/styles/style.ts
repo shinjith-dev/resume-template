@@ -14,11 +14,21 @@ const style = StyleSheet.create({
     height: "100%",
   },
   section: { marginBottom: "10pt" },
+  experiencePoints: {
+    gap: "1pt",
+    maxWidth: "100%",
+  },
+  experiencePoint: {
+    gap: "3pt",
+    flexDirection: "row",
+    maxWidth: "100%",
+  },
   textName: {
-    fontSize: "20pt",
+    fontSize: "28pt",
     fontFamily: "Baskerville",
     fontWeight: "bold",
     color: "#102c57",
+    marginBottom: "2pt",
   },
   textPost: {
     fontSize: "11pt",
@@ -28,7 +38,7 @@ const style = StyleSheet.create({
     textDecoration: "none",
   },
   heading: {
-    fontSize: "11.5pt",
+    fontSize: "11pt",
     fontFamily: "Baskerville",
     fontWeight: "bold",
     color: "#102c57",
@@ -36,7 +46,7 @@ const style = StyleSheet.create({
     textDecoration: "none",
   },
   subHeading: {
-    fontSize: "10pt",
+    fontSize: "9.5pt",
     fontFamily: "Open Sans",
     fontWeight: "medium",
     textDecoration: "none",
@@ -44,14 +54,14 @@ const style = StyleSheet.create({
     marginBottom: "2pt",
   },
   body: {
-    fontSize: "9pt",
+    fontSize: "8.5pt",
     fontFamily: "Open Sans",
     color: "#1e293b",
     marginBottom: "2pt",
     textDecoration: "none",
   },
   caption: {
-    fontSize: "8pt",
+    fontSize: "8.5pt",
     fontFamily: "Open Sans",
     color: "#334155",
     textDecoration: "none",
