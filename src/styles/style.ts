@@ -24,7 +24,7 @@ const style = StyleSheet.create({
     maxWidth: "100%",
   },
   textName: {
-    fontSize: "28pt",
+    fontSize: "26pt",
     fontFamily: "Baskerville",
     fontWeight: "bold",
     color: "#102c57",
@@ -46,7 +46,7 @@ const style = StyleSheet.create({
     textDecoration: "none",
   },
   subHeading: {
-    fontSize: "9.5pt",
+    fontSize: "10pt",
     fontFamily: "Open Sans",
     fontWeight: "medium",
     textDecoration: "none",
