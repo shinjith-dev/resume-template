@@ -1,9 +1,7 @@
 import style from "../styles/style";
-import sdev from "../assets/sdev.jpeg";
 import {
   Document,
   Font,
-  Image,
   Link,
   Page,
   Text,
