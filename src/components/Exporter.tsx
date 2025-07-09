@@ -1,9 +1,9 @@
-import { DocumentProps, PDFViewer, usePDF } from "@react-pdf/renderer";
-import { JSXElementConstructor, ReactElement, useEffect, useRef } from "react";
+import { PDFViewer, usePDF } from "@react-pdf/renderer";
+import { ReactElement, useEffect, useRef } from "react";
 import { NavLink, useNavigate, useSearchParams } from "react-router";
 
 type Props = {
-  children: ReactElement<DocumentProps, string | JSXElementConstructor<any>>;
+  children: ReactElement;
 };
 
 const Exporter = ({ children }: Props) => {
@@ -19,7 +19,7 @@ const Exporter = ({ children }: Props) => {
       downloadRef.current.remove();
       navigate("/");
     }
-  }, [downloadRef.current, download]);
+  }, [download, instance.url, navigate]);
 
   if (download && instance.loading) return <div>Loading...</div>;
 

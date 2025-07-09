@@ -37,31 +37,46 @@ const style = StyleSheet.create({
     marginBottom: "2pt",
     textDecoration: "none",
   },
-  heading: {
-    fontSize: "11pt",
+  heading1: {
+    fontSize: "11.5pt",
     fontFamily: "Baskerville",
     fontWeight: "bold",
     color: "#102c57",
     marginBottom: "8pt",
     textDecoration: "none",
   },
-  subHeading: {
-    fontSize: "10pt",
+  heading2: {
+    fontSize: "9.5pt",
     fontFamily: "Open Sans",
     fontWeight: "medium",
     textDecoration: "none",
     color: "#0f172a",
     marginBottom: "2pt",
   },
-  body: {
+  heading3: {
+    fontSize: "8pt",
+    fontFamily: "Open Sans",
+    fontWeight: "medium",
+    textDecoration: "none",
+    color: "#0f172a",
+    marginBottom: "2pt",
+  },
+  body1: {
     fontSize: "8.5pt",
     fontFamily: "Open Sans",
     color: "#1e293b",
     marginBottom: "2pt",
     textDecoration: "none",
   },
-  caption: {
-    fontSize: "8.5pt",
+  body2: {
+    fontSize: "7.5pt",
+    fontFamily: "Open Sans",
+    color: "#334155",
+    textDecoration: "none",
+    marginBottom: "2pt",
+  },
+  body3: {
+    fontSize: "7pt",
     fontFamily: "Open Sans",
     color: "#334155",
     textDecoration: "none",
